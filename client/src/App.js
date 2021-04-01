@@ -20,7 +20,7 @@ export default class App extends Component {
             <PersistGate persistor={persistor}>
               <Navbar />
 
-              <Route path="/" exact component={Home} />
+              <Route path="/" component={Home} />
               <Route path="/show/:id/:type" component={Show} />
               <Route path="/login/:id" component={Login} />
               <Route path="/buyer_dashboard" component={Buyer} />
